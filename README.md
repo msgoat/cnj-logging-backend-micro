@@ -7,7 +7,7 @@ Cloud native MicroProfile backend with support of cluster logging using an EFK s
 
 ## Status
 
-![Build status](https://drone.cloudtrain.aws.msgoat.eu/api/badges/msgoat/cnj-logging-backend-micro/status.svg)
+![Build status](https://codebuild.eu-west-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSEJsMW1ZSTN1WXFPMGJhdllvN3pEWnJuK3dmQkdiWXFJM1FjUDlablNnRnRxQWwzdDFnUHUxQitsWDdSQ1oxeDQ3a0FIM1JlZzlmdlFTdHhlUy9mZEQ4PSIsIml2UGFyYW1ldGVyU3BlYyI6ImNMWnNEeS9GWFZYTHllWVMiLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 ## Release information
 

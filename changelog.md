@@ -6,10 +6,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [5.0.0] - 2021-11-11
-### Added
+## [4.3.0] - 2023-02-24
 ### Changed
-- removed obsolete Java EE showcase
+- minor changes to make build on AWS CodeBuild work
 
 ## [4.1.0] - 2021-04-22
 ### Added
