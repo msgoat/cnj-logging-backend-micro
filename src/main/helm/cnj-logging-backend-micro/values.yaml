@@ -102,6 +102,6 @@ persistence:
     secret:
       name: cnj-logging-resources-postgres
       keys:
-        username: user
-        password: password
+        user: postgresql-user
+        password: postgresql-password
 
