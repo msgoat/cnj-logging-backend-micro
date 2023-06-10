@@ -51,8 +51,8 @@ service:
 
 ingress:
   enabled: true
-  class: traefik
-  type: traefik
+  class: nginx
+  type: nginx
   host: "${k8s.ingress.host}"
   path: "${k8s.ingress.path}"
   pathType: Prefix
@@ -85,8 +85,8 @@ podDisruptionBudget:
 # security configuration (Open ID Connect)
 security:
   oidc:
-    jwksUri: "https://oidc.cloudtrain.aws.msgoat.eu/auth/realms/cloudtrain/protocol/openid-connect/certs"
-    issuer: "https://oidc.cloudtrain.aws.msgoat.eu/auth/realms/cloudtrain"
+    jwksUri: "https://oidc.cloudtrain.aws.msgoat.eu/realms/cloudtrain/protocol/openid-connect/certs"
+    issuer: "https://oidc.cloudtrain.aws.msgoat.eu/realms/cloudtrain"
 
 # downstream service configuration
 downstream:
@@ -100,7 +100,7 @@ persistence:
     host: cnj-logging-resources-postgresql
     port: 5432
     secret:
-      name: cnj-logging-resources-pg
+      name: cnj-logging-resources-postgres
       keys:
         username: user
         password: password
