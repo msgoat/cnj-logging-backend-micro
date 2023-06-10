@@ -58,7 +58,7 @@ spec:
               valueFrom:
                 secretKeyRef:
                   name: {{ .Values.persistence.postgres.secret.name }}
-                  key: {{ .Values.persistence.postgres.secret.keys.username }}
+                  key: {{ .Values.persistence.postgres.secret.keys.user }}
             - name: POSTGRES_DB_PASSWORD
               valueFrom:
                 secretKeyRef:
