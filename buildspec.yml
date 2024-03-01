@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    CNJ_ARTIFACT_ID: cnj-hello-backend-micro
+    CNJ_ARTIFACT_ID: cnj-logging-backend-micro
   parameter-store:
     CLOUDTRAIN_EKS_DEPLOY_ENABLED: "CLOUDTRAIN_CODEBUILD_EKS_DEPLOY_ENABLED"
     CLOUDTRAIN_EKS_CLUSTER_NAME: "CLOUDTRAIN_CODEBUILD_EKS_CLUSTER_NAME"
